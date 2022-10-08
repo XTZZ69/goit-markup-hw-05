@@ -662,6 +662,9 @@ section {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: background-color var(--ms-transition), fill var(--ms-transition),
+    border-color var(--ms-transition);
+  transition-timing-function: var(--transition-effect);
 }
 .modal-btn:hover,
 .modal-btn:focus {
